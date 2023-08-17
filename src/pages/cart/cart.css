@@ -24,15 +24,43 @@
     font-size: 30px;
   }
   .countHandler input {
-    width: 40px;
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    width: 50px;
     text-align: center;
-    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
   }
   
   .checkout button {
     width: 150px;
     height: 50px;
     background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .delete{
+    width: 50px;
+    height: 25px;
+    background-color: rgba(243, 6, 6, 0.447);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .add{
+    width: 50px;
+    height: 25px;
+    background-color: green;
     color: white;
     border: none;
     border-radius: 8px;

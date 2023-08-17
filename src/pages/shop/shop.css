@@ -11,18 +11,21 @@
     place-items: center;
  }
  .product{
-    border-radius: 15px;
-    width: 300px;
-    height: 350px;
-    margin: 100px;
+    width: 400px;
+    height: 450px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
  }
 
  .product img{
-    width: 400px;
+    width: 275px;
  }
 
  .product .description{
